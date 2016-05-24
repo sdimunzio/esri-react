@@ -6,7 +6,7 @@ import App from 'app/components/layout/root';
 import Landing from 'app/components/layout/landing';
 
 export default (
-  	<Route path="" component={App}>
+  	<Route path="/react-esri/dist" component={App}>
 	  <IndexRoute component={Landing} />
 	</Route>
 );
